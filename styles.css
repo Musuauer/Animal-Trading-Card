@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant:400,700');
+
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Cormorant', serif;
+    color: white;
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1.3rem 0;
+    border: 1px solid rgb(152, 152, 152);
+    background-image: url(water.jpg);
+    background-size: cover;
+    -webkit-box-shadow: 10px 10px 36px -7px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 10px 10px 36px -7px rgba(0, 0, 0, 0.56);
+    box-shadow: 10px 10px 36px -7px rgba(0, 0, 0, 0.56);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid rgb(152, 152, 152);
+
+}
+
+.name {
+    font-size: 5rem;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: -.6rem 0;
+}
+
+.content {
+    width: 300px;
+}
+
+.picture {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+}
+
+.picture img {
+    width: 100%;
+}
+
+.credit p {
+    font-size: .8rem;
+    color: rgba(211, 211, 211, 0.49);
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
+}
+
+
+.info {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.53);
+    padding: .5rem;
+    margin-top: .5rem;
+}
+
+.info li,
+p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.info em {
+    font-size: 1.5rem;
+}
+
+.more-info {
+    margin-top: .5rem;
+    text-align: right;
+
+}
+
+.info a:hover {
+    color: red;
+}
+
+ul {
+    list-style: none;
+    margin: .5rem 0;
+    padding: 0;
+
+}
+
+ul li {
+    margin-top: .2rem;
+}
